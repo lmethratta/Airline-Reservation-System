@@ -1,0 +1,90 @@
+// in main.cpp
+
+// int main()
+    // initialize int variable for user input
+    // initialize 2D array and string variables for the seating chart
+    // append the seat values from the array to the string using assign function
+    // run main menu function
+    // run user interaction function
+
+// in func.cpp
+
+// main_menu
+    // prints out the nine menu outputs
+
+// get_name
+    // prompt user for first and last name
+    // append inputs to strings
+
+// display
+    // print out the seating chart
+
+// assign
+    // iterate through 2D array and append each row to the string
+
+// save_seats
+    // open file
+    // print each line out in the file
+
+// load_seats
+    // initialize vector
+    // open file
+    // while loop to put lines in vector
+    // append vector items onto string
+
+// load_vector
+    // initialize string
+    // open file
+    // while loop to put lines in vector
+
+// update
+    // initialize empty string
+    // iterate through vector
+        // if statement that allows user to change name on boarding ticket if they want to
+        // Append resulting string to the empty string
+
+// cancel
+    // iterates through vector of boarding passes
+    // if the given seat and name are contained in a row, do not append it to the string
+    // otherwise, append the row to the string
+    // run save_seats function with new string as a parameter
+
+// add_bp
+    // opens boarding passes file
+    // adds new boarding pass to string
+    // add string to boarding passes file
+
+// get_col
+    // switch statement that returns the cooresponding char for the input number
+
+// get_bp
+    // opens file
+    // initializes bool as false
+    // iterate through file lines
+        // if statement that returns the line if it contains the seat
+        // else print that the seat is unassigned
+
+// print_mainfest
+    // initialize a result vector and a temp vector
+    // switch statement for each of the four sorting methods
+        // iterate through vector v and put the contents starting with the seat/name in temp vector
+        // use sort function on temp vector
+        // use for loops to put arrange the contents of the original vector into the result vector
+    // iterate through result vector and print it
+
+// book_seat
+    // set the cooresponding point on the string equal to 1
+    // run save_seats on the string
+
+// init_assignment
+    // prompts user for character c
+    // if statement for different values of c
+        // while loops that assign random seats in different classes when they aren't full
+
+// interact
+    // switch statement with the nine different options of user interaction
+
+
+
+// in func.hpp
+    // the header files go here 

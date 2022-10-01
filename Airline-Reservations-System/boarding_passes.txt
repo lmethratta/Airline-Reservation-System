@@ -1,0 +1,3 @@
+Name: Jake Fuiman, Seat: A1, Level: First Class
+Name: Joe Smith, Seat: J2, Level: Business Class
+Name: Liana Thomas, Seat: J3, Level: Business Class
